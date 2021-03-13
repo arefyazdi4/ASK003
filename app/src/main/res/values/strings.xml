@@ -2,4 +2,5 @@
     <string name="app_name">ASK003</string>
     <string name="first_text">what,s up me!Boy extra</string>
     <string name="second_text">some text here</string>
+    <string name="errorMessage">this zipCode is invalid</string>
 </resources>
