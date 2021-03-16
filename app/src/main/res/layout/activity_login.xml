@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/login_EmailAddress"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/Email_hint"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/SignIn_message"
+        app:layout_constraintStart_toStartOf="@+id/SignIn_message"
+        app:layout_constraintTop_toBottomOf="@+id/Google_SignIn_message" />
+
+    <TextView
+        android:id="@+id/SignIn_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/SignIn_message"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Google_SignIn_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/google_signIN_message"
+        android:textColor="#E1232222"
+        app:layout_constraintEnd_toEndOf="@+id/SignIn_message"
+        app:layout_constraintStart_toStartOf="@+id/SignIn_message"
+        app:layout_constraintTop_toBottomOf="@+id/SignIn_message" />
+
+    <Button
+        android:id="@+id/ForgotEmail_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fadingEdge="horizontal|vertical|none"
+        android:freezesText="false"
+        android:text="@string/ForgotEmail_button"
+        android:textColor="#3045BA"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/login_EmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/login_EmailAddress" />
+
+    <Button
+        android:id="@+id/Create_account"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:fadingEdge="horizontal|vertical|none"
+        android:freezesText="false"
+        android:text="@string/CreateAccount_button"
+        android:textColor="#3045BA"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#3045BA"
+        android:text="@string/next_button"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/Login_icon"
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/SignIn_message"
+        app:layout_constraintEnd_toEndOf="@+id/SignIn_message"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/SignIn_message"
+        app:srcCompat="@drawable/bettericon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

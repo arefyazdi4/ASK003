@@ -3,4 +3,11 @@
     <string name="first_text">what,s up me!Boy extra</string>
     <string name="second_text">some text here</string>
     <string name="errorMessage">this zipCode is invalid</string>
+    <string name="Email_hint">Email or Phone</string>
+    <string name="SignIn_message">Sing in</string>
+    <string name="google_signIN_message">with your Google Account.</string>
+    <string name="LearnMore_button">Learn more</string>
+    <string name="ForgotEmail_button">Forgot mail?</string>
+    <string name="CreateAccount_button">Create account</string>
+    <string name="next_button">Next</string>
 </resources>
