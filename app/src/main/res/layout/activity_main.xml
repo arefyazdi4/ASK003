@@ -34,26 +34,28 @@
         app:layout_constraintVertical_bias="0.26" />
 
     <ImageView
-        android:id="@+id/image1"
+        android:id="@+id/iconBackgrand"
         android:layout_width="124dp"
         android:layout_height="119dp"
+        android:background="#6200EA"
+        android:contentDescription="background4icon"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="@+id/enterButton"
         app:layout_constraintStart_toStartOf="@+id/enterButton"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
 
-
     <ImageView
         android:id="@+id/icon"
         android:layout_width="@dimen/icon_size"
         android:layout_height="@dimen/icon_size"
-        android:src="@drawable/ic_baseline_location_on_24"
+        android:contentDescription="icon4defineZipcode"
 
-        app:layout_constraintBottom_toBottomOf="@+id/image1"
-        app:layout_constraintEnd_toEndOf="@+id/image1"
-        app:layout_constraintStart_toStartOf="@+id/image1"
-        app:layout_constraintTop_toTopOf="@+id/image1" />
+        android:src="@drawable/ic_baseline_location_on_24"
+        app:layout_constraintBottom_toBottomOf="@+id/iconBackgrand"
+        app:layout_constraintEnd_toEndOf="@+id/iconBackgrand"
+        app:layout_constraintStart_toStartOf="@+id/iconBackgrand"
+        app:layout_constraintTop_toTopOf="@+id/iconBackgrand" />
 
     <EditText
         android:id="@+id/zipCode_EditText"
@@ -65,5 +67,19 @@
         app:layout_constraintBottom_toTopOf="@+id/enterButton"
         app:layout_constraintEnd_toEndOf="@+id/enterButton"
         app:layout_constraintStart_toStartOf="@+id/enterButton" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/forecastList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#AE111C5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconBackgrand" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

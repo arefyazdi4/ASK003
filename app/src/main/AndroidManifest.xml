@@ -11,10 +11,6 @@
         android:theme="@style/Theme.ASK003">
 
         <activity android:name=".MainActivity">
-
-        </activity>
-
-        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,6 +18,7 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".LoginActivity">
+        </activity>
     </application>
-
 </manifest>
