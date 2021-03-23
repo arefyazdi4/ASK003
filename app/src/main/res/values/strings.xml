@@ -10,4 +10,5 @@
     <string name="ForgotEmail_button">Forgot mail?</string>
     <string name="CreateAccount_button">Create account</string>
     <string name="next_button">Next</string>
+    <string name="forecast_clicked_format">Forecast : %1$.2f  %2$s</string>
 </resources>
