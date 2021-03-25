@@ -24,9 +24,10 @@
     <Button
         android:id="@+id/enterButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/second_text"
+        android:layout_height="48dp"
 
+        android:layout_marginBottom="24dp"
+        android:text="@string/second_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,10 +36,13 @@
 
     <ImageView
         android:id="@+id/iconBackgrand"
-        android:layout_width="124dp"
-        android:layout_height="119dp"
+        android:layout_width="118dp"
+        android:layout_height="110dp"
         android:background="#6200EA"
         android:contentDescription="background4icon"
+        android:rotation="201"
+        android:rotationX="222"
+        android:rotationY="-175"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="@+id/enterButton"
         app:layout_constraintStart_toStartOf="@+id/enterButton"
@@ -74,12 +78,14 @@
         android:layout_height="0dp"
 
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:background="#AE111C5E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iconBackgrand" />
+        app:layout_constraintTop_toBottomOf="@+id/iconBackgrand"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

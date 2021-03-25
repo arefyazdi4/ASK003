@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">ASK003</string>
-    <string name="first_text">what,s up me!Boy extra</string>
-    <string name="second_text">some text here</string>
+    <string name="app_name">ASK003 Weather</string>
+    <string name="first_text">locate yor self </string>
+    <string name="second_text">SUBMIT ZIPCODE</string>
     <string name="errorMessage">this zipCode is invalid</string>
     <string name="Email_hint">Email or Phone</string>
     <string name="SignIn_message">Sing in</string>
@@ -11,4 +11,14 @@
     <string name="CreateAccount_button">Create account</string>
     <string name="next_button">Next</string>
     <string name="forecast_clicked_format">Forecast : %1$.2f  %2$s</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="forecast_detail">Forecast Detail</string>
 </resources>

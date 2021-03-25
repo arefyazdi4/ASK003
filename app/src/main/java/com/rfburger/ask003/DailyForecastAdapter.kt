@@ -14,7 +14,7 @@ class DailyForecastViewHolder(view : View) : RecyclerView.ViewHolder(view){
     private val descriptionText : TextView = view.findViewById(R.id.descriptionText)
 
     fun bind(dailyForecast : DailyForecast){
-        tempText.text = String.format("%.2f" , dailyForecast.temp)             //dailyForecast.temp.toString()
+        tempText.text = formatTempForDisplay(dailyForecast.temp)             //dailyForecast.temp.toString()
         descriptionText.text = dailyForecast.description
 
     }
