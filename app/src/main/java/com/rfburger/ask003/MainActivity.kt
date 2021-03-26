@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         val weeklyForecastObserver = Observer<List<DailyForecast>>{ forecastItems ->
             //Update our list adapter
-                dailyForecastAdapter.submitList(forecastItems)
+            dailyForecastAdapter.submitList(forecastItems)
         }
         forecastRepository.weeklyForecast.observe(this , weeklyForecastObserver)
 

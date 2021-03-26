@@ -22,7 +22,7 @@ class ForecastRepository {
 
         return if(temp2 < 75) "its too cold" else "it's great"
 
-//        return when(temp2){
+//        return when (temp2) {
 //            in Float.MIN_VALUE.rangeTo(0f) -> "Any thing below zero doesn't make sense "
 //            in 0.rangeTo(32) -> "way too cold"
 //            in 32.rangeTo(55) -> "not bad but still cold"
