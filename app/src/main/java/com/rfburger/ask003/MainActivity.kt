@@ -1,6 +1,7 @@
 package com.rfburger.ask003
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         val zipcodeEditText: EditText = findViewById(R.id.zipCode_EditText)
         val enterButton: Button = findViewById(R.id.enterButton)
 
+        //val buttonColor1 : Int = Color.argb( 60 , 61 , 62 , 63)
+        //enterButton.setBackgroundColor(buttonColor1)
+
         enterButton.setOnClickListener {
             val zipcode: String = zipcodeEditText.text.toString()
 
@@ -35,8 +39,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-
-
 
 
         val forecastList : RecyclerView = findViewById(R.id.forecastList)
